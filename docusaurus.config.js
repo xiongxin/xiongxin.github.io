@@ -1,13 +1,13 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: '一些开发相关的记录',
+  tagline: '永远保持孩子般的热情！',
+  url: 'https://xiongxin.github.io',
   baseUrl: '/',
+  projectName: 'xiongxin.github.io',
+  organizationName: 'xiongxin',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
@@ -19,12 +19,29 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: '文档',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          to: 'docs/java/zk001/',
+          activeBasePath: 'java',
+          label: 'Java',
+          position: 'left',
+        },
+        {
+          to: 'docs/rust/marcos0x01/',
+          activeBasePath: 'rust',
+          label: 'Rust',
+          position: 'left',
+        },
+        { to: 'blog', label: '博客', position: 'left' },
+        {
+          to: 'about',
+          label: '关于我',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/xiongxin',
           label: 'GitHub',
           position: 'right',
         },
@@ -32,52 +49,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} xiongxin. Built with Docusaurus.`,
     },
   },
   presets: [

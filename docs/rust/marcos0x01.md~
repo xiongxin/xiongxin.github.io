@@ -1,0 +1,15 @@
+---
+id: marcos0x01
+title: 宏0x01
+---
+
+# Macros in the AST
+
+As previously mentioned, macro processing in Rust happens after the construction of the AST. 
+
+宏调用的过程Rust解析器简单的看似收集无意义的 `token trees`。
+
+> The input to every macro is a single non-leaf token tree.
+
+# Expansion
+
