@@ -17,21 +17,21 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: '文档',
-          position: 'left',
-        },
-        {
           to: 'docs/java/zk001/',
-          activeBasePath: 'java',
+          activeBasePath: 'docs/java',
           label: 'Java',
           position: 'left',
         },
         {
-          to: 'docs/rust/marcos0x01/',
-          activeBasePath: 'rust',
-          label: 'Rust',
+          to: 'docs/programming/dcpl/dcpl0x00',
+          activeBasePath: 'docs/programming/',
+          label: '编程语言',
+          position: 'left',
+        },
+        {
+          to: 'docs/compiler/mincaml/mincaml0x00',
+          activeBasePath: 'docs/compiler/',
+          label: '编译器',
           position: 'left',
         },
         { to: 'blog', label: '博客', position: 'left' },

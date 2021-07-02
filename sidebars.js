@@ -1,48 +1,51 @@
 module.exports = {
-  docs: [
-    {
-      type: 'category',
-      label: '测试文档',
-      items: ['doc1', 'doc2', 'doc3'],
-    },
-    {
-      type: 'category',
-      label: '功能',
-      items: ['mdx'],
-    }
-  ],
   java: [
-    {
-      type: 'category',
-      label: '多线程',
-      items: ['java/zk001'],
-    },
     {
       type: 'category',
       label: 'jvm',
       items: ['java/zk001'],
     },
+    // {
+    //   type: 'category',
+    //   label: '多线程',
+    //   items: ['java/zk001'],
+    // },
+
+    // {
+    //   type: 'category',
+    //   label: '分布式',
+    //   items: ['java/zk001'],
+    // },
+    // {
+    //   type: 'category',
+    //   label: '中间件',
+    //   items: ['java/zk001'],
+    // }
+  ],
+  programming: [
     {
       type: 'category',
-      label: '分布式',
-      items: ['java/zk001'],
+      label: '编程语言设计概念',
+      items: [
+        'programming/dcpl/dcpl0x00',
+        'programming/dcpl/dcpl0x01',
+      ],
     },
     {
       type: 'category',
-      label: '中间件',
-      items: ['java/zk001'],
+      label: '编程语言概念、技术、模型',
+      items: [
+        'programming/ctm/ctm0x00',
+      ],
     }
   ],
-  rust: [
+  compiler: [
     {
       type: 'category',
-      label: 'rust宏',
-      items: ['rust/marcos0x01'],
-    },
-    {
-      type: 'category',
-      label: 'cagro包管理',
-      items: ['rust/marcos0x01'],
+      label: 'MinCaml',
+      items: [
+        'compiler/mincaml/mincaml0x00',
+      ],
     }
   ]
 };
