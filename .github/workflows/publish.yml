@@ -8,7 +8,7 @@ jobs:
     name: Publish Logseq graph
     steps:
       - uses: actions/checkout@v3
-      - uses: logseq/publish-spa@v0.1.0
+      - uses: logseq/publish-spa@main
         with:
           version: 0.9.6
           theme-mode: "dark"
