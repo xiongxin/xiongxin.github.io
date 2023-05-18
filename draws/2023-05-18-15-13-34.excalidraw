@@ -4,27 +4,27 @@
   "source": "file://",
   "elements": [
     {
-      "id": "YVJb0wtYLaEUF6TWw5IX0",
       "type": "freedraw",
-      "x": 77,
-      "y": 141,
-      "width": 164,
-      "height": 101,
-      "angle": 0,
-      "strokeColor": "#000000",
-      "backgroundColor": "transparent",
+      "version": 70,
+      "versionNonce": 1487309120,
+      "isDeleted": false,
+      "id": "YVJb0wtYLaEUF6TWw5IX0",
       "fillStyle": "hachure",
       "strokeWidth": 1,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
+      "angle": 0,
+      "x": 77,
+      "y": 141,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 164,
+      "height": 101,
+      "seed": 1574482624,
       "groupIds": [],
       "strokeSharpness": "round",
-      "seed": 1574482624,
-      "version": 70,
-      "versionNonce": 1487309120,
-      "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1684394018910,
       "link": null,
       "locked": false,
@@ -306,12 +306,9 @@
           90
         ]
       ],
-      "pressures": [],
+      "lastCommittedPoint": null,
       "simulatePressure": true,
-      "lastCommittedPoint": [
-        135,
-        90
-      ]
+      "pressures": []
     }
   ],
   "appState": {
