@@ -1,0 +1,7 @@
+public:: true
+category:: blog
+sub-category:: ai
+
+- <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOAQYZPRn2V7kbkCFF6zqJHgQ0FrQlP54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- 占个位置，后面学习
+-
